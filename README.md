@@ -1,5 +1,17 @@
 # msdevices
 Microsoft Device Manager module for python. Access all device names and properties with classes. 
+Properly typed and hinted. 
+
+# Classes 
+
+## device 
+string subclass for hinting
+
+## name / device.name
+device property name,  string subclass
+
+## property / device.property
+string of the device property's value
 
 
 # Getting Started
@@ -11,7 +23,7 @@ git clone https://github.com/Donny-GUI/msdevices.git
 ```
 
 ```Python3
-from msdevices import Devices, Device
+from msdevices.devices import Devices
 
 devices = Devices()
 
